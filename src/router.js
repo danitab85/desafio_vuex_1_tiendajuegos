@@ -4,6 +4,7 @@ import Router from 'vue-router'
 const Inicio = () => import('./components/Inicio')
 const Search = () => import('./components/Search')
 
+
 Vue.use(Router)
 
 export default new Router({
@@ -19,5 +20,6 @@ export default new Router({
             name: 'search',
             component: Search
         }
+
     ]
 })
